@@ -488,7 +488,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
-  border-radius: 5px;
+  border-radius: 50px;
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
@@ -595,6 +595,10 @@ section {
 /*--------------------------------------------------------------
 # Our Customize Section 
 --------------------------------------------------------------*/
+.image-world{
+  width: 70%;
+}
+
 h4.title{
   text-align:center;
 }
@@ -724,6 +728,182 @@ p.description {
     color: #fff;
 }
 
+/*--------Design Page----------*/
+.section-webdesign-bg {
+  background: url(../images/source.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.section-webdesign-overlay-container{
+  background-color: rgba(10,60,93,0.6);
+}
+
+.section-webdesign-inside-divider{
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0xMjgwIDMuNEMxMDUwLjU5IDE4IDEwMTkuNCA4NC44OSA3MzQuNDIgODQuODljLTMyMCAwLTMyMC04NC4zLTY0MC04NC4zQzU5LjQuNTkgMjguMiAxLjYgMCAzLjRWMTQwaDEyODB6IiBmaWxsLW9wYWNpdHk9Ii4zIi8+PHBhdGggZD0iTTAgMjQuMzFjNDMuNDYtNS42OSA5NC41Ni05LjI1IDE1OC40Mi05LjI1IDMyMCAwIDMyMCA4OS4yNCA2NDAgODkuMjQgMjU2LjEzIDAgMzA3LjI4LTU3LjE2IDQ4MS41OC04MFYxNDBIMHoiIGZpbGwtb3BhY2l0eT0iLjUiLz48cGF0aCBkPSJNMTI4MCA1MS43NmMtMjAxIDEyLjQ5LTI0Mi40MyA1My40LTUxMy41OCA1My40LTMyMCAwLTMyMC01Ny02NDAtNTctNDguODUuMDEtOTAuMjEgMS4zNS0xMjYuNDIgMy42VjE0MGgxMjgweiIvPjwvZz48L3N2Zz4=);
+  background-size: 100% 100px;
+  height: 100px;
+  display: block;
+  background-repeat-y: no-repeat;
+  position: absolute;
+  pointer-events: none;
+  width: 100%;
+  margin: -20px 0 0 0;
+}
+
+.section-webdesign-title h2 {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.section-webdesign-top-title h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.section-webdesign-title h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.section-webdesign-title a {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.btn-style-02{
+  /*background-color: #428bca;*/
+  color: #fff;
+  padding: 10px 30px !important;
+  border-radius: 50px !important;
+  border: 1px solid #fff;
+}
+.btn-style-02:hover{
+  background-color: #fff;
+  color: #428bca;
+}
+
+.count-webdesign {
+  background-color: #428bca;
+  color: #fff;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  height: 25%;
+  width: 20%;
+}
+
+.count-webdesign .count-box span {
+  font-size: 60px;
+}
+
+@media (max-width: 980px){
+  .count-webdesign {
+    width: 100%;
+  }
+  .image-world {
+    width: 100%;
+  }
+}
+
+.site-option {
+  font-size: 20px;
+    line-height: 1.5em;
+    background-color: #ffffff;
+    position: relative;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #0b3c5d;
+    padding-top: 30px!important;
+    padding-right: 10px!important;
+    padding-bottom: 30px!important;
+    padding-left: 10px!important;
+}
+
+.site-option h4 {
+  font-size: 18px;
+}
+
+.site-option p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.site-option p span{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.section-webdesign-bg-02 {
+  background-color: #5c768d;
+  color: #fff;
+  padding: 1px 0 !important;
+}
+
+.section-webdesign-bg-03  {
+  background-color: #428bca;
+  color: #fff;
+  padding: 1px 0 !important;
+}
+
+.count-box-option {
+    box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+    color: #666;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.count-box-option:hover {
+    /*box-shadow: 0px 15px 30px rgba(255, 255, 222, 0.3);*/
+    background: #fff;
+}
+
+.count-box-option i {
+    font-size: 50px;
+}
+
+.count-box-option h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact .contact-form {
+    padding: 30px;
+}
+
+.contact .contact-form input {
+    padding: 10px 15px;
+}
+.contact .contact-form input, .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.contact .contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact .contact-form textarea {
+    padding: 12px 15px;
+}
+.contact .contact-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
 
 /*--------------------------------------------------------------
 # About Us
